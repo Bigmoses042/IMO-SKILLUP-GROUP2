@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;500;700;800&display=swap');
 
 *,*::before,*::after{
     margin: 0;
@@ -21,8 +21,10 @@ body{
     max-width: 1440px;
     width: 50%;
     border-radius: 15px;
-    background-color: white;
-    
+    background-color: white;   
+}
+.weight{
+    color: rgb(196, 192, 192);
 }
 
 .left{
@@ -55,7 +57,7 @@ body{
 }
 
 .result{
-    background: rgb(63, 57, 235);
+    background: linear-gradient(to top, hsl(241,81%,54%) ,hsl(252,100%,67%));
     width: 150px;
     height: 150px;
     padding: 10px;
@@ -106,7 +108,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 12px;
-    background-color: hsl(0, 58%, 75%);
+    background-color: hsl(0, 29%, 83%);
     border-radius: 5px;
     padding-left: 10px;
     
@@ -175,12 +177,3 @@ p b{
         }
     
   }
-
- /* @media (max-width: 1440px) and (orientation: portrait){
-    .container {
-        display: flex;
-        flex-direction: column;
-
-    }
-  }
-  */
